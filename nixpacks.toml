@@ -1,5 +1,4 @@
-[providers]
-php = "php"
+providers = ["php"]
 
 [phases.setup]
 nixPkgs = ["php"]
