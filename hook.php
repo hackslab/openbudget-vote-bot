@@ -18,7 +18,7 @@ include 'Telegram.php';
 include 'functions.php';
 
 $tg = new Telegram([
-	'token' => ""
+	'token' => $_ENV['BOT_TOKEN'] ?? ''
 ]);
 
 
